@@ -51,10 +51,10 @@
     .meanous-andscoev,
     .ico-wrap {
     float: none;
-    text-align:left;
+    margin:0 50px;
     }
     .ico-wrap {
-    margin: 0 auto 15px auto;
+    margin: 0 50px ;
     }
   }
   .aio-icon-description a{
@@ -73,7 +73,7 @@
       font-size: calc(1rem + 2vw);
     }
   }
-  .thert p{
+  .thert .o{
     text-align: center;
   }
   .logo{
@@ -142,9 +142,6 @@
   .thert{
     background-color: white;
   }
-  .fore p{
-    text-align: center;
-  }
   .fore{
     background-color: white;
   }
@@ -152,16 +149,21 @@
     max-width: 100%;
     margin: 50px 0;
   }
+  .rf{
+    text-align: center;
+  }
+  .fore p{
+    text-align: center;
+  }
+  .thert p{
+    text-align: center;
+  }
   .fife{
     background-color: white;
   }
-  .fife p{
-    text-align: center;
-    font-size: 20px;   
-  }
   .fife .l{
     text-align: center;
-    margin: 50px 0;
+    margin-top: 50px ;
   }
   .fife p img{
     max-width: 100%;
@@ -192,7 +194,7 @@
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
-    
+    margin: 10px;
   }
 
   @keyframes glowing {
@@ -214,11 +216,6 @@
   }
   .w p img{
     max-width: 100%;
-  }
-  @media screen and(min-widht:500px){
-    .k{
-      display: none;
-    }
   }
   @media screen and (min-widht:500px){
     .w p img{
@@ -247,13 +244,164 @@
       display: flex;
     }
   }
-  @media screen and (min-widht:500px){
-    .thert p{
-      text-align: right;
+  .six{
+    background-color: white;
+  }
+
+
+  .fore p{
+    text-align: center;
+  }
+  @media screen and (max-widht:500px){
+    p{
+      text-align: center;
     }
   }
-  @media screen and (min-widht:500px){
-    .rf{
-      text-align: right;
+  .button {
+
+    border-radius: 60px;
+    background-color: orange;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer; 
+  }
+  
+  .fg{
+    background-color: white;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+
+
+
+
+  .nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+  }
+  
+  .kesednsoled1:after,
+  .kesednsoled1:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap1 {
+    color: orange;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid orange;
+    float: left;
+    border-radius: 30px;
+  }
+  .ico-contact {
+    line-height: 1.9;
+  }
+  .meanous-andscoev1 {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title1 {
+    font-size: 16px;
+    color: orange;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  p{
+    font-size: 13px;
+  }
+  @media (max-width: 767px) {
+    .meanous-andscoev1,
+    .ico-wrap1 {
+    float: none;
+    text-align: center;
     }
+    .ico-wrap1 {
+    margin: 0 auto 15px auto;
+    }
+  }
+  .aio-icon-description1 a{
+    text-decoration: none;
+    color: black;
+  }
+  header .kesednsoled1{
+    max-width: 100%;
+  }
+  @media(max-widht:991px)
+  {
+    .g{
+      padding: 20px 40px;
+    }
+  }
+  .six img{
+    max-width: 100%;
+    border: 2px solid orange; 
+    padding: 15px; 
+    background: #666; 
+    margin-bottom: 10px;
+    transition: 1s;
+    margin: 0 10%;
+  }
+  @media screen and (max-widht:500px)
+  {
+    .six p{
+      text-align: center;
+    }
+  }
+  .six h2{
+    text-align: center;
+    color: orange;
+    margin-bottom: 40px;
+    font-size: calc(1rem + 2vw);
+  }
+  .six p{
+    text-align: center;
+  }
+  @media screen and (min-widht:500px){
+    .six img{
+      margin: 0 0;
+    }
+  }
+  .six img:hover{
+    transform: scale(1.2);
+  }
+  .meanous-andscoev1{
+    margin: 0 5% ;
   }
